@@ -1,0 +1,41 @@
+* { 
+	box-sizing: border-box;
+}
+html, body {
+	min-height: 100%;
+	background: #fff;
+	color: #000;
+    font-family: 'Futura', Arial, sans-serif;
+
+}
+form{
+    margin: 0 auto 22px;
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+  
+}
+.topnav, .list {
+    margin: 0 auto 22px;
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    border: solid 2px #000;
+    border-radius: 4px;
+  }
+li{
+    display: inline;
+    text-decoration: none;
+}
+  h1{
+    color:blue;
+  }
+  .myList{
+padding: 12px;
+  }
